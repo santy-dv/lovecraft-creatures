@@ -125,7 +125,7 @@ if(window.Notification && Notification.permission !== 'denied' ){
             navigator.share({
                 title: "DWT3AP - PWA",
                 text: "Finalmente es una pwa",
-                url: "https://dwt3ap-pwa.netlify.app/",
+                url: "https://lovecraft-creatures.netlify.app/",
             })
             .then(()=>{
                 console.log("se compartio")
