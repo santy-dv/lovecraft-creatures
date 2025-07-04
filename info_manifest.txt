@@ -1,0 +1,21 @@
+****display****
+
+Fullscreen: (pantalla completa), ocupa todo la pantalla y no se nada del navegador web. Usado principalmente para juegos.
+
+standalone: se vera como una app independiente. Puede tener su propia ventana, su propio icono en el lanzador de aplicaciones, etc. Se excluyen los elementos de la interfaz para controlar la navegacion, pero puede incluir otro elementos como la barra de estado.
+
+minimal-ui: se mostrara como una app independiente, pero tendra un minimo de elementos de interfaz para controlar la navegacion. Estos elementos varian segun el navegador.
+
+browser: la app se abre en una pestaña o ventana nueva, dependiendo del navegador y la plataforma. esto es por defecto. 
+
+***orientation***
+
+any: valor por defecto, la app gira segun el dispositivo.
+
+natura, protrait, portrait-primary: solo vertical.
+
+portratit-secundary: rota la pantalla quedando los botones del dispositivo arriba.
+
+landscape, landscape-primary: horizontal, por defecto, la pantalla rota hacia la izquierda.
+
+landscape, landscape-secundary: horizontal, por defecto, la pantalla rota hacia la derecha.
